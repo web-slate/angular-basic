@@ -1,0 +1,32 @@
+{
+  "name": "osprey-ng2",
+  "description": "Osprey Application in Angular 1.5",
+  "main": "index.js",
+  "authors": [
+    "Venkatraman Ramamoorthy"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "osprey",
+    "angular",
+    "1.5"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "angular": "^1.5.8",
+    "font-awesome": "fontawesome#^4.6.3",
+    "angular-route": "^1.5.8",
+    "angular-translate": "^2.12.1",
+    "angular-translate-loader-partial": "^2.12.1"
+  },
+  "devDependencies": {}
+}

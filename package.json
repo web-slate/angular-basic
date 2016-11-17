@@ -1,0 +1,26 @@
+{
+  "name": "angular-basic",
+  "version": "1.0.0",
+  "description": "Basic App in bootstrap, jquery, angular, angular-route, grunt, grunt-angular-templates and grunt-contrib-concat and optional gulp, gulp-angular-templatecache",
+  "main": "createServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "osprey",
+    "angular",
+    "1.5"
+  ],
+  "author": "Venkatraman",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-angular-templates": "^1.1.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-concat": "^2.6.0"
+  }
+}

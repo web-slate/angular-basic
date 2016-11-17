@@ -1,0 +1,15 @@
+<div class="form-group">
+    <label for="{{option.id}}" translate>
+			{{option.label}}
+		</label>
+    <input
+			maxlength="{{option.maxLength}}"
+			type="{{option.type}}"
+			class="form-control input-lg {{option.classList}}"
+			id="{{option.id}}"
+			aria-describedby="{{option.id}}Help"
+			translate-attr="{placeholder: option.placeHolder}">
+    <small id="{{option.id}}Help" class="form-text text-muted">
+			{{option.errorMessages.required}}
+		</small>
+</div>

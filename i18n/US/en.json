@@ -1,0 +1,26 @@
+{
+	"common": {
+		"menu": {
+			"mainTitle": "Angular Basic",
+			"home": "Home (current)",
+			"current": "(current)",
+			"history": "History",
+			"activity": "Activity",
+			"requestHistory": "Request History",
+			"downloadFile": "Download File"
+		},
+		"banner": {
+				"title": "Bank App",
+				"subTitle": "Account Look Up"
+		}
+	},
+	"lookUpPage": {
+		"title": "Account Look Up",
+		"form": {
+			"searchFieldLabel": "Account Number",
+			"placeHolder": "Enter Account Number",
+			"required": "This field is required",
+			"buttonTitle": "Search"
+		}
+	}
+}
