@@ -4,7 +4,10 @@
   "description": "Basic App in Angular 2.x",
   "main": "createServer.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "lite": "lite-server",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,8 @@
   },
   "homepage": "https://github.com/spa-boiler-plates/angular-basic#readme",
   "dependencies": {
+    "@angular/common": "^2.2.1",
+    "@angular/compiler": "^2.2.1",
     "@angular/core": "^2.2.0",
     "@angular/platform-browser": "^2.2.1",
     "@angular/platform-browser-dynamic": "^2.2.1",
