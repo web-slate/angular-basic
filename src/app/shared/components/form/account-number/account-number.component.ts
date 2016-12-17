@@ -12,7 +12,7 @@ export class AccountNumberComponent implements OnInit {
 	@Input() placeholder = "Account Number";
 	@Input() label = "Enter an Account Number";
 	@Input() info = "Please enter 16 digit account number";
-	@Input() success = "Valid Account number";
+	@Input() success = "";
 
   constructor() { }
 

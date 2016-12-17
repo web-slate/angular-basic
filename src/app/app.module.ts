@@ -10,6 +10,7 @@ import { BannerComponent } from './shared/components/common/banner/banner.compon
 
 import { AccountNumberComponent } from './shared/components/form/account-number/account-number.component';
 import { InputBoxComponent } from './shared/components/form/input/input.component';
+import { SubmitButtonComponent } from './shared/components/form/submit-button/submit-button.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { InputBoxComponent } from './shared/components/form/input/input.componen
     NavBarComponent,
     BannerComponent,
     AccountNumberComponent,
-    InputBoxComponent
+    InputBoxComponent,
+    SubmitButtonComponent
   ],
   imports: [
     BrowserModule,
