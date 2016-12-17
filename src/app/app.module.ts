@@ -5,9 +5,19 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { NavBarComponent } from './shared/components/common/nav-bar/nav-bar.component';
+import { BannerComponent } from './shared/components/common/banner/banner.component';
+
+import { AccountNumberComponent } from './shared/components/form/account-number/account-number.component';
+import { InputBoxComponent } from './shared/components/form/input/input.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavBarComponent,
+    BannerComponent,
+    AccountNumberComponent,
+    InputBoxComponent
   ],
   imports: [
     BrowserModule,
