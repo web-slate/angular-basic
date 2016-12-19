@@ -8,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 
 export class InputBoxComponent implements OnInit {
 
-	@Input() id = "inputId";
+	@Input() fieldId = "inputId";
 	@Input() type = "text";
 	@Input() placeholder = "Place Holder Goes here";
 	@Input() label = "Enter Value";
@@ -18,7 +18,7 @@ export class InputBoxComponent implements OnInit {
 	helpId = null;
 
   constructor() {
-		this.helpId = "help-" + this.id;
+		this.helpId = "help-" + this.fieldId;
 	}
 
   ngOnInit() {
