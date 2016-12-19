@@ -1,7 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import { Http, HttpModule } from '@angular/http';
+
+// Custom Modules.
+import { TranslateModule, TranslateLoader, TranslateStaticLoader } from 'ng2-translate';
 
 import { AppComponent } from './app.component';
 
@@ -24,7 +27,12 @@ import { SubmitButtonComponent } from './shared/components/form/submit-button/su
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+		TranslateModule.forRoot({
+			provide: TranslateLoader,
+			useFactory: (http: Http) => new TranslateStaticLoader(http, '/i18n/US', '.json'),
+			deps: [Http]
+		})
   ],
   providers: [],
   bootstrap: [AppComponent]
