@@ -20,7 +20,7 @@
     "grunt-cli": "1.4.2",
     "grunt-contrib-concat": "1.0.1",
     "gulp": "3.9.1",
-    "gulp-angular-templatecache": "2.2.7",
+    "gulp-angular-templatecache": "3.0.0",
     "gulp-concat": "2.6.1"
   }
 }
